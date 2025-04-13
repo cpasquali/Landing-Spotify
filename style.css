@@ -326,8 +326,12 @@ header {
   -o-border-radius: 40px;
   background-color: transparent;
   border: 1px white solid;
-  text-align: center;
   color: white;
+  padding: 20px;
+}
+
+.input-field::placeholder {
+  text-align: center;
 }
 
 input::placeholder {
